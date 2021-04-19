@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+		    .msg-error {
+			padding: 8px;
+			background-color: red;
+			color: white;
+		    }
+			.msg-success {
+			padding: 8px;
+			background-color: green;
+			color: white;
+		    }			
+		</style>
+		<link rel="stylesheet" href="tmp_stylesheet.css">
+	</head>
+	<body>	
+		<div> Give Us a 6 Star Rating! </div>
+		<div class="dropdown">
+			
+			<div class="dropdown-content">
+				<a href="/feedback/1">1</a>
+				<a href="/feedback/2">2</a>
+				<a href="/feedback/3">3</a>
+				<a href="/feedback/4">4</a>
+				<a href="/feedback/5">5</a>
+			</div>
+		</div>
+		{% for category, message in get_flashed_messages(with_categories=true) %}
+			<div class={{category}}>{{ message }}</div>
+		{% endfor %}
+	</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+		    .msg-error {
+			padding: 8px;
+			background-color: red;
+			color: white;
+		    }
+			.msg-success {
+			padding: 8px;
+			background-color: green;
+			color: white;
+		    }			
+		</style>
+	</head>
+	<body>	
+		<form action="/login" method="post">
+			<input type="text" name="Username">
+			<input type="text" name="Password">
+			<input type="submit">
+		</form>
+		{% for category, message in get_flashed_messages(with_categories=true) %}
+			<div class={{category}}>{{ message }}</div>
+		{% endfor %}
+	</body>
+</html>

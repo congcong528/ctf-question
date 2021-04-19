@@ -1,0 +1,91 @@
+
+html, body {
+  height: 100%;
+  margin: 0;
+  	
+	background-image:url("background.png");
+	background-position:center;
+		
+	background-size:cover;
+}
+.full-height {
+  height: 100%;
+
+}
+.column {
+  float: left;
+  width: 33.33%;
+  height: 751px;;
+
+
+}
+
+
+.columnl {
+  float: left;
+  width: 30%;
+  height: 751px;;
+
+
+}
+.columnm {
+  float: left;
+  width: 40%;
+  height: 751px;;
+
+
+}
+.columnr {
+  float: left;
+  width: 30%;
+  height: 751px;;
+
+
+}
+.frame{
+	margin-top:300px;
+	margin-left:140px;
+	
+}
+.frame2{
+	margin-top:180px;
+	width: 200px
+}
+.fqa{
+	margin-top:50px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}  
+  
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top:100px;
+  vertical-align :center;
+  width: 80%;
+	
+}
+.logo1{
+  display: block;
+  margin:0;
+
+ width: 60%;
+
+
+	
+}
+
+
+.challenge{
+	
+	font-size:32px;
+	float:right;
+	
+	margin-top:180px;
+	margin-right:10px"
+}

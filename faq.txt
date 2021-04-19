@@ -1,0 +1,60 @@
+<div class="header">
+  <h1 >Frequently Asked Questions</h1>
+</div>
+<style>
+/* Header/Logo Title */
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #ffa500;
+  color: black;
+  font-size: 30px;
+}
+summary{
+  font-size:25px;
+  background-color: #f1fef4;
+  } 
+  p{
+  font-size:20px;
+  background-color: #ddd;}
+</style>
+
+
+<div style="margin-top:100px">
+   
+<div Style ="color:black,">
+		<details style="line-height: 2">
+			<summary >What is CTF ?</summary>
+			<p>
+            "Capture The Flag" (CTF) consist of a set of computer security puzzles (or challenges) involving reverse-engineering, memory corruption, cryptography, web technologies, and more.
+             </p>
+		</details>
+		<p></p>	
+		<details >
+			<summary >What is the prize ?</summary>
+				<p>
+                            ?
+                </p>
+	    </details>	
+		<p></p>		
+		<details>
+			<summary >What will I need to participate in this event?</summary>
+				<p>Your company laptop, and 2 other colleagues to form a team with. If you are unable to form a team prior to the event, 
+				time will be provided at the start of the event to form teams on the spot with other individuals.
+				Some cybersecurity experience would also help, although it is not a must.
+				</p>
+		</details>
+		<p></p>	
+		<details >
+			<summary >What is the event like ?</summary>
+				<p>
+                A link to a website containing various challenges will be provided. Participants score points by correctly solving the challenges. 
+				More points will be awarded to teams that solve any challenge first. 
+				Participants can see how they fare against other teams via a scoreboard that is updated in real time. 
+				At the end of 3 hours, all progress will be halted, and the final victors will be decided by comparing the team with the highest points, 
+				as seen from the scoreboard. Tie-breaking will be based on the team to reach the highest number of points first.         
+                </p>
+	    </details>
+		</div>
+</div>
+
